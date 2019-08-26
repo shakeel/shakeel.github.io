@@ -109,33 +109,137 @@ Go, C, C++, C#, JavaScript, Java, Dart, Python, Swift.
 
 ### PROJECTS
 
+#### Software Defined Networking SDN Switch — Dept of Energy, Microgrid Resiliency Project at ABB Corporate Research
+
+Built a physical SDN switch using Linux, Intel 4-port NIC PCIe Card, Linux Kernel Modules, Hugepages, VFIO-PCI, Open vSwitch, Intel DPDK, Faucet SDN, Prometheus & Grafana. 
+
+The SDN switch allows us to detect malfunctioning microgrids and isolate them using distributed Power Grid State Estimation algorithms.
+
+This project helped me understand low level Linux Kernel Modules, Open Flow, Networking Namespaces, VLANs, TUN devices, Bridges, Gateways & Routers. Experimented with some off the shelf SDN switches, P4 Language & P4 Runtime. https://micro-grid.github.io/swtch/ 
+
+#### Machine Learning Based Engineering — ABB Corp Research
+
+Explored the solution space for possible intermediate representations of customer provided inputs for ML based pipeline which included Swift, CUE, Skylark. Used Git-LFS to store & manage PDFs & other artifacts. Used Azure DevOps, GitLab, Go, GraphQL.
+
+#### AI for Parts — ABB Corporate Research
+
+Built word embedding ML pipeline for classifying ABB spare parts, part items, location inventory. Automated labeling for over 1.5 million items. Improved spare parts fingerprint processes for all of ABB’s products. Used Go, Python, Jupyter Notebook, Keras, GitLab, Portainer, Webpack, Babel, ESLint, SQLite.
+
+#### Voice Assistant for Field Devices — ABB Corporate Research
+
+Applied Voice Assistant APIs for embedded field devices such as Aquamaster Water meter for better interactions with field operators. Raspberry PI plus Google AIY Kit connected to water meter using Modbus protocol over serial port. Used C, Python & Google AI APIs.
+
+#### Human Centered ML — ABB Corporate Research
+
+Presentation on how to build a machine learning pipeline, when should you use ML, how to prototype it, how to be aware of biases. Source material from Google’s PAIR project, customized for ABB.
+
+#### AI Prestudy — ABB Corporate Research
+
+Company wide introspection on the future challenges posed by AI, Deep Learning, & automation. Part of a global team looking at identifying potential use cases for ML based pipelines. Reviewed Google AI, Jeff Dean, Google PAIR, Microsoft AI research papers and talks.
+
+#### Microservices at ABB — ABB Corporate Research
+
+An approach to migrate legacy monoliths to microservices, when, why, and how. Built prototypes & proof of concepts of various approaches & design patterns using Docker & Kubernetes. Focus on scalability and discovery of services. Comparisons between Azure & Google Cloud.
+
+#### IPC Performance Benchmarks — ABB Corporate Research
+
+Inter-process communication is key to various products deployed on small footprint devices. Identified different scenarios & built micro-benchmarks using Google Benchmark on Raspberry Pi & Intel NUC platforms. 
+
+Results of the study were very surprising, Google Protocol Buffers & Google FlatBuffers were the winners over other IPC serialization techniques.
+
+Investigated using perf tools and eBPF to find out why performance stalls, the unsurprising answer was L1 Cache misses.
+
+This project utilized Bazel, C, C++, GTest, GBenchmark, perf & other Linux toolsets, it was the most appreciated project at ABB Research.
+
+#### Location Aware Field Operations — ABB Corporate Research
+
+Built a mobile version of the ABB 800xA Control system to help field operations. Project involved using Go middleware, Material Design Progressive Web App. Go server used a ngrok reverse proxy endpoint to a privately hosted 800xA industrial automation control system.
+
+To improve field operations, we deployed Bluetooth BLE Beacons throughout a factory floor to passively identify the control system assets closest to the field operator.
+
+Investigated & applied for a secure geo fenced lifespan patent for a mobile device to be used in the field for 800xA control system operations.
+
+#### Autonomous Asset Inspections — ABB Corporate Research
+
+Built a mockup prototype of power generation, water distribution autonomous asset inspection based on ideas from Google Street View and various image recognition techniques. 
+
+Built a modern progressive web app to highlight hotspots, indoor maps, onboard camera views, & potential diagnosis. The autonomous system relied on human operators to verify results & generate work orders.
+
+#### Future Mobility Workforce — ABB Corporate Research
+
+Led a team of domain experts and research scientists to evaluate potential use cases for future mobility workforce. At this time, ABB was focused on desktop & panoramic control systems. Cloud & Mobile Computing were not considered essential.
+
+We interviewed ABB’s customers in Oil & Gas, Power Generation, Power Distribution, Water Distribution, Industrial Automation to identify gaps and needs for field operations.
+
+#### Context Aware Control Systems — ABB Corporate Research
+
+Web logs present a unique perspective on how web apps and websites are being used. We used these ideas and control room chatter to annotate and tag operator actions to learn which parts of the system are being used, which are rarely used, and other leading indicators.
+
+#### OS1 Industrial Automation Controller  — ABB Research
+
+Designed, prototyped, and implemented a new controller hardware &  software platform for Industrial Automation. This was before the advent of mobile platforms and Linux on ARM platform. 
+
+Technology stack consists of IBM Java J9 Virtual Machine, Apache Jetty, IBM MQTT. Product rollout failed due to SD write performance issues and hardware reliability.
+
+#### Stora Enso Work Order Mgt — ABB Corporate Research
+
+Stora Enso is a large paper & pulp factory based in Sweden. Designed and implemented a work order management system using Skyva plus IBM SanFrancisco framework (precursor to IBM WebSphere), using Java servlets, JSP, and other related components.
+
+#### Manufacturing Supply Chain — ABB Corporate Research
+
+ABB was focused on Industrial IT and SAP competitor Skyva for building the next generation Manufacturing platform. Built Java middleware based on Skyva, SAP connectors, 800xA Control System integrations.
+
+#### MENA Content Mgt System — Essential Computing
+
+Built a static website generator using Java for Middle East & North Africa news content. Precursor to Jekyll and Hugo. Used templates and a simple tags to allow news editors to write content in text files and generate static website.
+
+### PUBLISHED PAPERS
+
+* Microinteractions in Mobile and Wearable Computing, published by IEEE Advanced Information Networking and Applications in 2016.
+* Location Aware Mobile Systems, published by ABB Research USCRC Technical Review in 2015.
+* A dynamic software product line architecture for prepackaged expert analytics, published by WICSA in 2014.
+* Picture of health, published by ABB Review in January 2014.
+* Exploiting ABB knowledge on industrial assets, published by ABB Review in 2013.
+
+### TALKS
+
+* Machine Learning at ABB Customer World, Houston Texas, March 2019. 
+* Human Centered ML: An approach to Machine Learning projects, ABB, 2018.
+* Mobile 800xA Demo at ABB Customer World, Houston Texas, March 2017.
+* Fuchsia at ABB, Capability based operating system, 2017.
+* Flutter for Mobile Apps, Building native iOS, Android, Fuchsia apps from a single source codebase, 2017.
+* Docker Containers Seminar, Using containers to build scalable systems, 2015.
+* Go Slices and Bytes, Talk at Google Developers Group Triangle in Durham NC 2014.
+* Using Struts at Java Users Group in Durham NC.
+* Java EE, XML, UML technology courses at IBM sites throughout 2000 - 2001.
+
+### PATENTS
+
+* Model development environment for assisting user in developing model describing condition of industrial asset, August 16, 2016.
+* Industrial Asset Health Profile, December 4, 2014.
+* Industrial asset event chronology, March 13, 2013
+* Interactive interface for asset health management, June 25, 2015.
+* Industrial asset health model update, December 11, 2014.
+* Recording and providing for display images of events associated with power equipment, November 20, 2014.
+* Criticality profile for industrial asset, June 10, 2013.
+
+### SPECIAL POWERS
+
+* Installing Arch Linux. 
+* Enrolled in Windows Insider Fast Ring, MacOS Beta, & Android Beta.
+* Building my own Chromium browser on Ubuntu.
+* Exploring using Coral TPU for Machine Learning on the edge.
+* Built apps for Google Glass.
+* Built super upgraded desktop with AMD Ryzen 16 cores, 128 GB DRAM, 1 TB NVMe, 5 TB SSD, AMD Radeon Vega GPU. Ideal for running 100s of Chrome tabs, TensorFlow ML, building Chrome & Fuchsia.
+* Ask me about Spinlocks, FUTEX, File Locking, Go Scheduler, Network Namespaces, Containers, Fuchsia OS.
+* Attended the Guy Steele talk at 1998 ACM OOPSLA Conference.
+* Received a tape archive from Richard Stallman with GNU toolset in 1991.
+* Using Go before its 1.0 release.
+* Started working on web in 1998 with CGI scripts using Smalltalk.
+* Started programming with C++ using cppfront preprocessor.
+* Learned to program on a Z80 microprocessor kit using  machine code.
 
 
+### CONTACT ME
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shakeel/shakeel.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You can reach me at shakeel at mahate dot net.
