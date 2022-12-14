@@ -1,11 +1,28 @@
 ## Shakeel Mahate
 
-Senior Software Engineer + Architect + Product & Technology Management
+Cloud Architect
 
 ### EXPERIENCE
 
+#### Hitachi Energy, Raleigh — Cloud Architect
+2020 - PRESENT
+
+Responsble for cloud migration and modernization of products serving the Energy Market Porfolio which includes the following industry leading products: 
+* PROMOD Simulation Engine, 
+* Velocity Suite Energy Market Intelligence, 
+* TRMTracker Trading and Risk Management, 
+* nMarket, 
+* Retail Operations, 
+* Counterparty Settlement and Billing.
+
+Responsible Cloud Architecure with focus on cloud efficiency, performance, scalability and developer productivity.
+
+Expertise in Google Cloud platform, Google Cloud Foundations, BigQuery, Data Pipelines, Agigee API Gateways, Cloud Build, and Cloud Run. 
+
+Focus on Infrastructure as Code.
+
 #### ABB Corporate Research, Raleigh — Senior Principal Scientist
-January 2007 - PRESENT | September 2001 - December 2004
+2007 - 2019 and 2001 - 2004
 
 As a research scientist my role at ABB is to design, build, evaluate product features and concepts to benefit various ABB Business Units _Industrial Automation_: Oil & Gas, Pulp & Paper, Power Generation; _Power Systems_: Electric Grid Network Management, Micro-Grids; _Robotics_. 
 
@@ -18,7 +35,7 @@ Published papers, invention disclosures & patents for advances in Industrial Aut
 Lead editor for a quarterly report on Software Technology Watch to evangelize Cloud Computing, Machine Learning, Operating Systems & Programming Language advancements to the larger ABB community.
 
 #### Islamic Center of Raleigh — IT Team Lead (Volunteer)
-1998 - PRESENT
+1998 - 2020
 
 Led development of three major updates of website for the largest Islamic center in South East with peak visits of over 10,000. 
 
@@ -27,43 +44,43 @@ Linux, MySQL, NGINX, PHP, JavaScript, JQuery, MovableType technology stack. Buil
 Built GSuite based IT infrastructure for over 100 users for day to day operations of the center.
 
 #### IBM, Raleigh NC — Senior Architect
-January 2005 - December 2006 | June 1995 - December 1999
+2005 - 2006 and 1995 - 1999
 
 As a senior architect in IBM Global Services, I worked on two major projects at IBM customer sites, for modernizing workflows for insurance claims & point of sale terminals. Built integrations with various IBM legacy systems using IBM MQ Series, IBM Websphere, & Guidewire.
 
 In my previous stint at IBM as a Senior Developer, I was part of the team that built VisualAge family of IDEs for Smalltalk, C++,  Java which later became Eclipse IDE. Built visual composition editors, wizards & code generators using Smalltalk & Java.
 
 #### Essential Computing, Raleigh NC — CEO, Senior Consultant
-January 2000 - December 2002
+2000 - 2002
 
 Founded a technology consulting company providing software development & training in Java EE + Web development. Built developer certification exams for IBM. 
 
 Customers included IBM, ABB, Vroom Technologies, Local & State Government Agencies, and news services. Built & delivered tutorials & course work for Java EE, EJB, Struts, JSP, Servlets, XML, UML, OO Design.
 
 #### University of Maryland, Baltimore County MD — Instructor
-June 1989 - May 1995
+1989 - 1995
 
 Taught VAX 8600 Assembly Language & Data Structures classes to undergraduate students. Mentored students with internship & job placements at RWD Technologies.
 
 #### RWD Technologies, Columbia MD — Senior Developer
-November 1992 - May 1995
+1992 - 1995
 
 Built custom software solutions for Holiday Inn, Motorola, GE for Macintosh, Windows & UNIX platforms. Wrote custom widgets & built a cross-platform user interface & communication APIs for GEnie online service. Built custom parsers for domain specific languages.
 
 #### S3 Technologies, Columbia MD — Developer
-January 1990 - October 1992
+1990 - 1992
 
 Built nuclear power plant simulators. Focused on Instructor Workstations to override simulations to introduce faults. Used real-time UNIX on Masscomp workstations. Ported Simulator Instructor Workbench to Sun Solaris OS. Wrote a DataViews overlay to help automate labeling engineering drawings.
 
 ### EDUCATION
 
 #### University of Maryland, Baltimore County — M.S. CMSC
-January 1989 - December 1990
+1989 - 1990
 
 Master’s thesis on implementing & measuring performance of various graph algorithms. Presentations on dealing with Byzantium Faults in Distributed Systems, Public Key Cryptography & Zero Knowledge Proofs.
 
 #### University of Bombay, India — B.E. Computer Engineering
-June 1984 - May 1988
+1984 - 1988
 
 Final year project was Universal Assembler design & development in Turbo Pascal. Taught Pascal & Z80 Assembly Language programming in senior year, this was my very first job. Teaching is my passion.
 
