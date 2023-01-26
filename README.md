@@ -7,17 +7,17 @@ Cloud Architect
 #### Hitachi Energy, Raleigh — Cloud Architect
 2020 - PRESENT
 
-Responsble for cloud migration and modernization of products serving the Energy Market Porfolio which includes the following industry leading products: 
+Responsible for cloud migration and modernization of products serving the Energy Market Porfolio which includes the following industry leading products: 
 * PROMOD Simulation Engine, 
 * Velocity Suite Energy Market Intelligence, 
 * TRMTracker Trading and Risk Management, 
-* nMarket, 
+* nMarket Market Operations, 
 * Retail Operations, 
 * Counterparty Settlement and Billing.
 
-Responsible Cloud Architecure with focus on cloud efficiency, performance, scalability and developer productivity.
+Responsible for the Cloud Architecure with focus on cloud cost efficiency, performance, scalability and developer productivity.
 
-Expertise in Google Cloud platform, Google Cloud Foundations, BigQuery, Data Pipelines, Agigee API Gateways, Cloud Build, and Cloud Run. 
+Expertise in Google Cloud platform, Google Cloud Foundation Blueprint, BigQuery, Data Pipelines, Agigee API Gateways, Cloud Build, and Cloud Run. 
 
 Focus on Infrastructure as Code.
 
